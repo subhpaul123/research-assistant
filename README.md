@@ -45,7 +45,7 @@ This application also comes with a **Chrome Extension**  that interacts with the
 1.  Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/subhpaul123/research-assistant.git 
     cd research-assistant
     ```
 

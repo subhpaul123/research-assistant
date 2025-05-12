@@ -1,0 +1,121 @@
+# ---------------------------------
+# Java Specific
+# ---------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.log
+*.hprof
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ---------------------------------
+# Maven Specific
+# ---------------------------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnw
+mvnw.cmd
+.mvn/
+
+# ---------------------------------
+# Spring Tool Suite (STS)
+# ---------------------------------
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# ---------------------------------
+# IntelliJ IDEA
+# ---------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+out/
+
+# ---------------------------------
+# Eclipse
+# ---------------------------------
+.classpath
+.project
+.settings/
+bin/
+
+# ---------------------------------
+# NetBeans
+# ---------------------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ---------------------------------
+# Visual Studio Code
+# ---------------------------------
+.vscode/
+
+# ---------------------------------
+# Logs
+# ---------------------------------
+logs/
+*.log
+
+# ---------------------------------
+# Environment Variables
+# ---------------------------------
+.env
+*.env
+
+# ---------------------------------
+# OS Generated Files
+# ---------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# ---------------------------------
+# Chrome Extension (if applicable)
+# ---------------------------------
+chrome-extension/build/
+chrome-extension/dist/
+
+# ---------------------------------
+# Node.js (for extension if using npm/yarn/pnpm)
+# ---------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ---------------------------------
+# Test Output
+# ---------------------------------
+test-output/
+
+# ---------------------------------
+# Code Coverage
+# ---------------------------------
+coverage/
+jacoco.exec
+*.ec
+*.exec
